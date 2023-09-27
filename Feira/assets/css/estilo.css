@@ -30,10 +30,10 @@ header {
     z-index: 1000;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background: var(--menu-color);
     box-shadow: 0 0 5px;
-    padding: 15px 120px;
+    padding: 20px 10px;
     transition: all .5s ease;
 }
 
@@ -51,15 +51,16 @@ header {
 
 .navbar a {
     color: var(--text-color);
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     font-weight: 500;
-    padding: 30.5px 25px;
-    margin: 0px 10px;
-    transition: all .5s ease;
+    padding: 20px 19px;
+    justify-content: space-around;
+    margin: 0px 20px;
+    transition: .2s ease;
 }
 
 .navbar a:hover {
-    background: #d8d8d8;
+    font-size: 1.27rem; 
 }
 
 .main {
@@ -154,7 +155,7 @@ header {
         position: absolute;
         top: 15vh;
         right: 1%;
-        width: 30vw;
+        width: 40vw;
         height: 62vh;
         box-shadow: -1px 5px 5px;
         border-radius: 15px;
