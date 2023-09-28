@@ -56,11 +56,14 @@ header {
     padding: 20px 19px;
     justify-content: space-around;
     margin: 0px 20px;
-    transition: .2s ease;
+    transition: .5s ease;
 }
 
-.navbar a:hover {
-    font-size: 1.27rem; 
+.navbar li {
+    transition: .5s;
+}
+.navbar li:hover {
+    transform: scale(1.15);
 }
 
 .main {
