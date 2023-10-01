@@ -224,7 +224,7 @@ header {
     width: 80%;
     height: 200px;
     margin-left: 10%;
-    margin-top: 8%;
+    margin-top: 10%;
 }
 
 .card{
@@ -233,7 +233,23 @@ header {
     margin-left: 5%;
 }
 
+.ttl{
+    margin-top: 0;
+    padding: 0;
+    height: 75vh;
+    border-radius: 0px 0px 300px;
+    width: 100%;
+    background: #006ad7;
+    color: #fff; 
+}
+
+.img-duvida{
+    width: 380px;
+    margin-left: 8%;
+}
+
 .titulo{
+    padding-top: 10%;
     text-transform: uppercase;
     text-align: center;
 }
