@@ -9,7 +9,7 @@
 
 :root {
     --bg-color: #f1f1f1;
-    --text-color: #000;
+    --text-color: #ffffff;
     --menu-color: #fff;
     --main-color: #45a1f7;
 }
@@ -32,10 +32,18 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: var(--menu-color);
-    box-shadow: 0 0 5px;
-    padding: 15px 10px;
+    background: transparent;
+    padding: 25px 10px;
     transition: all .5s ease;
+}
+
+header.rolagem{
+    background: var(--menu-color);
+    padding: 12px 10px;
+}
+
+header.rolagem a{
+    color: #000;
 }
 
 .logo {
@@ -87,7 +95,21 @@ header {
 .select-dalt .select-btn {
     display: flex;
     height: 55px;
-    background: #fff;
+    background: #1a8afa;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(51, 51, 51, 0.514);
+}
+
+header.rolagem .select-btn {
+    display: flex;
+    height: 55px;
+    background: #ffffff;
     padding: 20px;
     font-size: 15px;
     font-weight: 400;
@@ -103,6 +125,16 @@ header {
     transition: .5s ease;
 }
 
+header.rolagem .btn-dalt {
+    color: #000;
+}
+
+header.rolagem .select-btn i {
+    font-size: 25px;
+    transition: .5s ease;
+    color: #000;
+}
+
 .select-dalt.active .select-btn i {
     transform: rotate(-180deg);
 }
@@ -111,7 +143,18 @@ header {
     position: absolute;
     padding: 20px;
     margin-top: 10px;
-    background: #fff;
+    background: #1a8afa;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(51, 51, 51, 0.514);
+    display: none;
+    transition: .5s;
+}
+
+header.rolagem .options {
+    position: absolute;
+    padding: 20px;
+    margin-top: 10px;
+    background: #ffffff;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(51, 51, 51, 0.514);
     display: none;
@@ -129,11 +172,27 @@ header {
     padding: 0 16px;
     border-radius: 8px;
     align-items: center;
-    background: #fff;
+    background: transparent;
+    color: #ffffff;
+}
+
+header.rolagem .option {
+    display: flex;
+    height: 50px;
+    cursor: pointer;
+    padding: 0 16px;
+    border-radius: 8px;
+    align-items: center;
+    background: transparent;
+    color: #000;
 }
 
 .options .option:hover {
-    background: #f2f2f2;
+    background: #4ca3fa;
+}
+
+header.rolagem .option:hover {
+    background: #f1f1f1;
 }
 
 .option .option-text {
@@ -223,30 +282,24 @@ header {
 
 .container{
     width: 80%;
-    height: 100px;
+    height: 450px;
     margin-left: 10%;
-    margin-top: 10%;
-}
-
-.card{
-    width: 90%;
-    height: 400px;
-    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .intro{
     margin-top: 0;
     padding: 0;
-    height: 70vh;
-    border-radius: 0px 10% 40%;
-    width: 105%;
+    height: 80vh;
+    width: 100%;
     background: #006ad7;
     color: #fff;
 }
 
 .img-duvida{
     width: 380px;
-    margin-left: 6%;
+    margin-left: 15%;
 }
 
 .titulo-intro{
@@ -260,17 +313,35 @@ header {
 }
 
 .txt-sobre{
-    margin-right: 20%;
+    margin-right: 16%;
     margin-top: 2%;
     margin-left: 2%;
+}
+
+.ver-mais{
+    border: none;
+    border-radius: 100px;
+    padding: 10px 40px;
+    font-size: 20px;
+    background: #1a8afa ;
+    box-shadow: 0 0 2px #242424;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 22%;
+}
+
+.titulo-app{
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
 }
 
 .empresas{
     width: 100%;
     height: 19.5vh;
-    margin-top: 2%;
+    margin-top: 0%;
     background: #e2e2e2;
-    box-shadow: 0 0 10px #9e9c96;
+    box-shadow: 0 0 5px #9e9c96;
 }
 
 .contratantes{
