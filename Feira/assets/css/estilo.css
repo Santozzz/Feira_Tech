@@ -50,6 +50,27 @@ header.rolagem a{
     display: flex;
     align-items: center;
     color: var(--text-color);
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.logo i {
+    font-size: 1.4rem;
+    margin-right: 5%;
+}
+
+header.rolagem .logo i {
+    font-size: 1.4rem;
+    margin-right: 5%;
+    color: #000;
+}
+
+header.rolagem .logo{
+    display: flex;
+    align-items: center;
+    color: #000;
+    text-transform: uppercase;
     font-size: 1.7rem;
     font-weight: 600;
 }
@@ -298,59 +319,75 @@ header.rolagem .option:hover {
 }
 
 .img-duvida{
-    width: 380px;
-    margin-left: 15%;
+    width: 450px;
+    margin-left: 18%;
 }
 
 .titulo-intro{
-    padding-top: 9%;
+    padding-top: 10%;
     text-transform: uppercase;
     text-align: center;
+    font-size: 1.7rem;
 }
 
 .sobre{
     display: flex;
 }
 
-.txt-sobre{
-    margin-right: 16%;
-    margin-top: 2%;
-    margin-left: 2%;
+.empresas{
+    width: 100%;
+    height: 19.5vh;
+    background: #e2e2e2;
+    box-shadow: 0 0 5px #9e9c96;
 }
 
-.ver-mais{
+.cont-btn-vm{
+    margin-top: 10%;
+    margin-left: 7%;
+}
+
+.btn-vermais{
+    padding: 15px 20px;
     border: none;
-    border-radius: 100px;
-    padding: 10px 40px;
-    font-size: 20px;
-    background: #1a8afa ;
-    box-shadow: 0 0 2px #242424;
+    border-radius: 40px;
+    background: #1a8afa;
+    box-shadow: 0 0 5px rgba(51, 51, 51, 0.514);
     color: #fff;
     text-transform: uppercase;
-    margin-left: 22%;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-vermais i{
+    color: #fff;
+    font-size: .9rem;
+    padding-left: 10px;
+}
+
+.img-empres{
+    width: 120px;
+    margin-left: 6%;
+}
+
+.container-sobreprojeto{
+    height: 100vh;
+    margin-top: 10%;
+}
+
+.titulo-sobreprojeto{
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+}
+
+.container-app{
+    height: 85vh;
 }
 
 .titulo-app{
     text-transform: uppercase;
     color: #000;
     text-align: center;
-}
-
-.empresas{
-    width: 100%;
-    height: 19.5vh;
-    margin-top: 0%;
-    background: #e2e2e2;
-    box-shadow: 0 0 5px #9e9c96;
-}
-
-.contratantes{
-    justify-content: center ;
-}
-
-.img-empres{
-    width: 120px;
-    margin-left: 6%;
 }
 
 /* fim container */
