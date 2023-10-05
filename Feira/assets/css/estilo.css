@@ -301,14 +301,6 @@ header.rolagem .mobile-menu div {
 
 /* começo container */
 
-.container{
-    width: 80%;
-    height: 450px;
-    margin-left: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
 .intro{
     margin-top: 0;
     padding: 0;
@@ -369,68 +361,20 @@ header.rolagem .mobile-menu div {
     padding-left: 10px;
 }
 
-
-.container-sobreprojeto{
-    margin-top: 10%;
-}
-
-.conteudo-1{
-    display: flex;
-}
-
-.conteudo-2{
-    display: flex;
-}
-
-.titulo-sobreprojeto{
-    text-transform: uppercase;
-    color: #000;
-    text-align: center;
-}
-
-.titulo-sobreprojeto-2{
-    text-transform: uppercase;
-    color: #000;
-    text-align: center;
-}
-
-.txt-sobreprojeto{
+.container{
+    width: 90%;
+    height: 900px;
     margin-left: 5%;
-    margin-right: 15%;
-    margin-top: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background: #45a1f7;
 }
 
-.txt-sobreprojeto-2{
-    margin-left: 15%;
-    margin-right: 5%;
-    margin-top: 5%;
+.ttl-projeto h2{
+    padding-top: 6%;
+    text-align: center;
 }
 
-.txt-sobreprojeto p{
-    color: #000;
-}
-
-.txt-sobreprojeto-2 p{
-    color: #000;
-}
-
-.conteudo-1 img{
-    border-radius: 15px;
-    margin-top: 2%;
-    width: 200px;
-}
-
-.conteudo-2 img{
-    border-radius: 15px;
-    margin-top: 2%;
-    width: 200px;
-}
-
-@media (max-width: 999px) {
-    .titulo-intro{
-
-    }
-}
 /* fim container */
 
 
@@ -444,7 +388,6 @@ header.rolagem .mobile-menu div {
 footer {
     width: 100%;
     color: #fff;
-    margin-top: 50%;
 }
 
 .footer-link {
