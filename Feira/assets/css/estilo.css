@@ -229,7 +229,15 @@ header.rolagem .option:hover {
 .mobile-menu div {
     width: 32px;
     height: 2px;
-    background: #000;
+    background: #ffffff;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+header.rolagem .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #000000;
     margin: 8px;
     transition: 0.3s;
 }
@@ -250,19 +258,11 @@ header.rolagem .option:hover {
         transform: translateX(100%);
         transition: all .5s ease;
     }
-
-    .main a {
-        margin-right: 25px;
-        color: var(--text-color);
-        font-size: 1.1rem;
-        font-weight: 500;
-        transition: all .5s ease;
-    }
-
+    
     .navbar li {
         margin-left: 0;
     }
-
+    
     .mobile-menu {
         display: block;
     }
@@ -334,9 +334,14 @@ header.rolagem .option:hover {
     display: flex;
 }
 
+.img-empres{
+    width: 100px;
+    margin-left: 7%;
+}
+
 .empresas{
     width: 100%;
-    height: 19.5vh;
+    height: 16vh;
     background: #e2e2e2;
     box-shadow: 0 0 5px #9e9c96;
 }
@@ -364,14 +369,17 @@ header.rolagem .option:hover {
     padding-left: 10px;
 }
 
-.img-empres{
-    width: 120px;
-    margin-left: 6%;
-}
 
 .container-sobreprojeto{
-    height: 100vh;
     margin-top: 10%;
+}
+
+.conteudo-1{
+    display: flex;
+}
+
+.conteudo-2{
+    display: flex;
 }
 
 .titulo-sobreprojeto{
@@ -380,16 +388,49 @@ header.rolagem .option:hover {
     text-align: center;
 }
 
-.container-app{
-    height: 85vh;
-}
-
-.titulo-app{
+.titulo-sobreprojeto-2{
     text-transform: uppercase;
     color: #000;
     text-align: center;
 }
 
+.txt-sobreprojeto{
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+.txt-sobreprojeto-2{
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.txt-sobreprojeto p{
+    color: #000;
+}
+
+.txt-sobreprojeto-2 p{
+    color: #000;
+}
+
+.conteudo-1 img{
+    border-radius: 15px;
+    margin-top: 2%;
+    width: 200px;
+}
+
+.conteudo-2 img{
+    border-radius: 15px;
+    margin-top: 2%;
+    width: 200px;
+}
+
+@media (max-width: 999px) {
+    .titulo-intro{
+
+    }
+}
 /* fim container */
 
 
@@ -403,6 +444,7 @@ header.rolagem .option:hover {
 footer {
     width: 100%;
     color: #fff;
+    margin-top: 50%;
 }
 
 .footer-link {
@@ -410,7 +452,7 @@ footer {
 }
 
 #footer_content {
-    background-color: #1674d3;
+    background-color: #006ad7;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 3rem 3.5rem;
@@ -516,7 +558,7 @@ footer {
 #footer_copyright {
     display: flex;
     justify-content: center;
-    background-color: #1a62aa;
+    background-color: #004f9e;
     font-size: 0.9rem;
     padding: 1.5rem;
     font-weight: 100;
