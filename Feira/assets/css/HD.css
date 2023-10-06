@@ -15,7 +15,7 @@
 }
 
 body {
-    min-height: 300vh;
+    min-height: 100vh;
     background: var(--bg-color);
     color: var(--text-color);
     overflow-x: hidden;
@@ -85,21 +85,23 @@ header.rolagem .logo{
     font-weight: 500;
     padding: 20px 19px;
     justify-content: space-around;
-    margin: 0px 20px;
+    margin: 0px 0px 0px 20px;
     transition: .5s ease;
     cursor: pointer;
 }
 
 .navbar li {
     transition: .5s;
+    margin-top: 1.5%;
 }
 .navbar li:hover {
     transform: scale(1.15);
 }
 
 .select-dalt {
-    width: 190px;
+    width: 340px;
     transition: .3s;
+    margin-left: 19%
 }
 
 .select-dalt i{
@@ -161,7 +163,6 @@ header.rolagem .mobile-menu div {
     margin: 8px;
     transition: 0.3s;
 }
-
 
 .navbar.active {
     transform: translateX(0);

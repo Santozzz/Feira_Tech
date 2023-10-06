@@ -14,8 +14,9 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        transform: translateX(140%);
+        transform: translateX(150%);
         transition: all .5s ease;
+        overflow-x: hidden;
     }
 
     header.rolagem .navbar {
@@ -33,6 +34,12 @@
         text-transform: uppercase;
         font-size: 1rem;
         font-weight: 600;
+    }
+
+    .select-dalt {
+        width: 190px;
+        transition: .3s;
+        margin-left: 11%;
     }
 
     .select-dalt {
@@ -62,6 +69,21 @@
         justify-content: space-between;
         box-shadow: 0 0 5px rgba(51, 51, 51, 0.514);
     }
+
+    header.rolagem .select-dalt .select-btn {
+        display: flex;
+        height: 20px;
+        background: #ffffff;
+        padding: 20px;
+        width: 170px;
+        font-size: 13px;
+        font-weight: 400;
+        border-radius: 8px; 
+        cursor: pointer;
+        justify-content: space-between;
+        box-shadow: 0 0 5px rgba(51, 51, 51, 0.514);
+    }
+
 
     .navbar li {
         margin-left: 0;
@@ -130,7 +152,7 @@
     
     .empresas{
         width: 100%;
-        height: 50vh;
+        height: 45vh;
         background: #e2e2e2;
         box-shadow: 0 0 5px #9e9c96;
     }
