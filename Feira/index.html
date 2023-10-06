@@ -12,27 +12,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
 </head>
+
 <body>
 
   <!-- menu -->
   <header id="header">
     <a href="index.html" class="logo"><i class="fa-solid fa-user-tie"></i>mr.vision</a>
     <ul class="navbar">
-      <li><a href="index.html">Inicio</a></li>
-      <li><a href="solucoes.html">Soluções</a></li>
-      <li><a href="oportunidades.html">Oportunidades</a></li>
+      <li><a class="navbar-item">Inicio</a></li>
+      <li><a href="solucoes.html" class="navbar-item">Soluções</a></li>
+      <li><a href="oportunidades.html" class="navbar-item">Oportunidades</a></li>
     </ul>
     <div class="select-dalt">
       <div class="select-btn">
-        <spam class="btn-dalt">Modo Daltônico</spam>
-        <i class="bx bx-chevron-down"></i>
-      </div>
-      <div class="options">
-        <li class="option"><span class="option-text">padrão</span></li>
-        <li class="option"><span class="option-text">deuteranomalia</span></li>
-        <li class="option"><span class="option-text">protanomalia</span></li>
-        <li class="option"><span class="option-text">protanopia</span></li>
-        <li class="option"><span class="option-text">deuteranopia</span></li>
+        <spam class="btn-dalt" onclick="">Modo Daltônico<i class="fa-regular fa-eye"></i></spam>
       </div>
     </div>
     <div class="mobile-menu">
@@ -72,60 +65,99 @@
 
   <!-- container -->
   <div class="container">
-   <div class="ttl-projeto">
-    <h2>Sobre o Projeto</h2>
-   </div>
+    <section id="Inicio">
+      <div class="conteudo-1" data-anime="left">
+        <h2 class="ttl-projeto">Sobre o Projeto</h2>
+        <div class="txt-sobre-1">
+          <picture>
+            <img class="img-sobre" src="assets/img/img-sobre.jpg" alt="">
+          </picture>
+          <p>
+            O projeto "MR.VISION" tem como principal objetivo
+            promover a inserção e inclusão de pessoas com deficiência visual no mercado de trabalho.
+            Reconhecendo as barreiras e desafios que esses indivíduos enfrentam diariamente, o projeto
+            busca criar oportunidades igualitárias e proporcionar um ambiente favorável para que eles
+            possam desenvolver suas habilidades e competências profissionais. <br>
+            Para alcançar esse objetivo, o projeto irá atuar em diferentes frentes. Em primeiro lugar,
+            será realizado um mapeamento de empresas e organizações que já possuem programas ou políticas
+            de inclusão para pessoas com deficiência visual. Com base nessa pesquisa, serão identificadas
+            melhores práticas e modelos de sucesso a serem seguidos e replicados.
+          </p>
+        </div>
+      </div>
+      <div class="conteudo-2" data-anime="right">
+        <div class="txt-sobre-2">
+          <p>
+            Além disso, serão realizadas parcerias com instituições de ensino e entidades especializadas
+            para oferecer treinamentos e capacitações específicas voltadas para o desenvolvimento de competências
+            necessárias para o mercado de trabalho. Esses treinamentos poderão abranger desde habilidades
+            técnicas, como o uso de softwares de leitura e escrita em Braille, até competências socioemocionais,
+            como comunicação assertiva e trabalho em equipe. <br>
+            Com todas essas ações, o projeto "Inclusão no Trabalho para Deficientes Visuais" busca criar um
+            ambiente de trabalho mais inclusivo e acessível, onde pessoas com deficiência visual possam ser
+            valorizadas, contribuir ativamente e desenvolver suas carreiras profissionais com autonomia e
+            igualdade de oportunidades.
+          </p>
+          <picture>
+            <img class="img-sobre" src="assets/img/img-sobre.jpg" alt="">
+          </picture>
+        </div>
+      </div>
+      <div class="conteudo-3" data-anime="right">
+        <h2 class="ttl-app">Aplicativo</h2>
+      </div>
   </div>
+  </section>
   <!-- fim container -->
   <!-- footer -->
   <footer>
     <div id="footer_content">
-        <div id="footer_contacts">
-            <h1><i class="fa-solid fa-user-tie"></i>mr.vision</h1>
-            <p>Evolução com inclusão.</p>
-            <div id="footer_social_media">
-                <a href="#" class="footer-link" id="instagram">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </div>
+      <div id="footer_contacts">
+        <h1><i class="fa-solid fa-user-tie"></i>mr.vision</h1>
+        <p>Evolução com inclusão.</p>
+        <div id="footer_social_media">
+          <a href="#" class="footer-link" id="instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
         </div>
-        
-        <ul class="footer-list">
-            <li>
-                <h3>Menu</h3>
-            </li>
-            <li>
-                <a href="index.html" class="footer-link">INICIO</a>
-            </li>
-            <li>
-                <a href="solucoes.html" class="footer-link">SOLUÇÕES</a>
-            </li>
-            <li>
-                <a href="oportunidades.html" class="footer-link">OPORTUNIDADES</a>
-            </li>
-        </ul>
+      </div>
+
+      <ul class="footer-list">
+        <li>
+          <h3>Menu</h3>
+        </li>
+        <li>
+          <a href="index.html" class="footer-link">INICIO</a>
+        </li>
+        <li>
+          <a href="solucoes.html" class="footer-link">SOLUÇÕES</a>
+        </li>
+        <li>
+          <a href="oportunidades.html" class="footer-link">OPORTUNIDADES</a>
+        </li>
+      </ul>
 
 
 
-        <div id="footer_subscribe">
-            <h3>Contato</h3>
+      <div id="footer_subscribe">
+        <h3>Sugestões</h3>
 
-            <p>
-                Entre em contato, mande sua mensagem
-            </p>
+        <p>
+          Dê a sua sugestão para melhorias
+        </p>
 
-            <div id="input_group">
-                <input type="email" id="email">
-                <button>
-                    <i class="fa-regular fa-envelope"></i>
-                </button>
-            </div>
+        <div id="input_group">
+          <input type="email" id="email">
+          <button>
+            <i class="fa-regular fa-envelope"></i>
+          </button>
         </div>
+      </div>
     </div>
 
     <div id="footer_copyright">
-        &#169
-        SHEREBE CODES
+      &#169
+      SHEREBE CODES
     </div>
   </footer>
   <!-- fim footer -->
@@ -137,4 +169,5 @@
   <script src="assets/js/smooth-scroll.js"></script>
   <script src="https://kit.fontawesome.com/d1c125adc2.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

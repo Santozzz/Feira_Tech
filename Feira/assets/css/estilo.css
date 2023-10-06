@@ -79,7 +79,7 @@ header.rolagem .logo{
     display: flex;
 }
 
-.navbar a {
+.navbar-item {
     color: var(--text-color);
     font-size: 1.25rem;
     font-weight: 500;
@@ -87,6 +87,7 @@ header.rolagem .logo{
     justify-content: space-around;
     margin: 0px 20px;
     transition: .5s ease;
+    cursor: pointer;
 }
 
 .navbar li {
@@ -96,21 +97,16 @@ header.rolagem .logo{
     transform: scale(1.15);
 }
 
-.main {
-    display: flex;
-    align-items: center;
-}
-
-.main a {
-    margin-right: 25px;
-    color: var(--text-color);
-    font-size: 1.1rem;
-    font-weight: 500;
-    transition: all .5s ease;
-}
-
 .select-dalt {
-    width: 200px;
+    width: 190px;
+    transition: .3s;
+}
+
+.select-dalt i{
+    margin-left: 10px;
+}
+.select-dalt:active {
+    transform: scale(.90);
 }
 
 .select-dalt .select-btn {
@@ -141,84 +137,8 @@ header.rolagem .select-btn {
     box-shadow: 0 0 5px rgba(51, 51, 51, 0.514);
 }
 
-.select-btn i {
-    font-size: 25px;
-    transition: .5s ease;
-}
-
 header.rolagem .btn-dalt {
     color: #000;
-}
-
-header.rolagem .select-btn i {
-    font-size: 25px;
-    transition: .5s ease;
-    color: #000;
-}
-
-.select-dalt.active .select-btn i {
-    transform: rotate(-180deg);
-}
-
-.select-dalt .options {
-    position: absolute;
-    padding: 20px;
-    margin-top: 10px;
-    background: #1a8afa;
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(51, 51, 51, 0.514);
-    display: none;
-    transition: .5s;
-}
-
-header.rolagem .options {
-    position: absolute;
-    padding: 20px;
-    margin-top: 10px;
-    background: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(51, 51, 51, 0.514);
-    display: none;
-    transition: .5s;
-}
-
-.select-dalt.active .options {
-    display: block;
-}
-
-.options .option {
-    display: flex;
-    height: 50px;
-    cursor: pointer;
-    padding: 0 16px;
-    border-radius: 8px;
-    align-items: center;
-    background: transparent;
-    color: #ffffff;
-}
-
-header.rolagem .option {
-    display: flex;
-    height: 50px;
-    cursor: pointer;
-    padding: 0 16px;
-    border-radius: 8px;
-    align-items: center;
-    background: transparent;
-    color: #000;
-}
-
-.options .option:hover {
-    background: #4ca3fa;
-}
-
-header.rolagem .option:hover {
-    background: #f1f1f1;
-}
-
-.option .option-text {
-    font-size: 15px;
-    text-transform: uppercase;
 }
 
 .mobile-menu {
@@ -353,6 +273,10 @@ header.rolagem .mobile-menu div {
     text-transform: uppercase;
     font-size: 1rem;
     cursor: pointer;
+    transition: .3s;
+}
+.btn-vermais:active{
+    transform: scale(.90);
 }
 
 .btn-vermais i{
@@ -363,17 +287,64 @@ header.rolagem .mobile-menu div {
 
 .container{
     width: 90%;
-    height: 900px;
+    height: 1000px;
     margin-left: 5%;
-    margin-top: 4%;
+    margin-top: 9%;
     margin-bottom: 4%;
-    background: #45a1f7;
 }
 
-.ttl-projeto h2{
-    padding-top: 6%;
-    text-align: center;
+.conteudo-3{
+    margin-top: 4%;
 }
+
+.ttl-projeto{
+    color: #000;
+    width: 200px;
+    margin-left: 40%;
+    margin-bottom: 2%;
+    text-align: center;
+    border-bottom: 3px #3d90e4 solid ;
+}
+
+.ttl-app{
+    color: #000;
+    width: 200px;
+    margin-left: 40%;
+    margin-bottom: 2%;
+    text-align: center;
+    border-bottom: 3px #3d90e4 solid ;
+}
+
+.txt-sobre-1{
+    display: flex;
+}
+
+.txt-sobre-1 p{
+    color: #000;
+    text-align: justify;
+    margin-top: 3%;
+    margin-left: 3%;    
+    text-indent: 40px;
+}
+
+.txt-sobre-2{
+    display: flex;
+}
+
+.txt-sobre-2 p{
+    color: #000;
+    text-align: justify;
+    margin-top: 3%;
+    margin-right: 3%;    
+    text-indent: 40px;
+}
+
+.img-sobre{
+    width: 250px;
+    border-radius: 15px;
+
+}
+
 
 /* fim container */
 
@@ -526,7 +497,6 @@ footer {
 
 
 /* Animação */
-
 
 [data-anime]{
     opacity: 0;
