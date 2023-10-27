@@ -79,7 +79,27 @@ header.rolagem .logo{
     display: flex;
 }
 
-.navbar-item {
+.navbar-item-1 {
+    color: var(--text-color);
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 20px 19px;
+    justify-content: space-around;
+    margin: 0px 0px 0px 20px;
+    transition: .5s ease;
+    cursor: pointer;
+}
+.navbar-item-2 {
+    color: var(--text-color);
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 20px 19px;
+    justify-content: space-around;
+    margin: 0px 0px 0px 20px;
+    transition: .5s ease;
+    cursor: pointer;
+}
+.navbar-item-3 {
     color: var(--text-color);
     font-size: 1.25rem;
     font-weight: 500;
@@ -315,12 +335,29 @@ header.rolagem .mobile-menu div {
     text-indent: 40px;
 }
 
+.txt-app{
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%
+}
+
 .img-sobre{
     width: 250px;
     border-radius: 15px;
-
+    margin-top: 19%;
 }
 
+.card{
+    width: 90%;
+    margin-left: 5%;
+    height: 600px;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    box-shadow: 0 0 5px #bdbdbd;
+}
 
 /* fim container */
 
@@ -335,6 +372,7 @@ header.rolagem .mobile-menu div {
 footer {
     width: 100%;
     color: #fff;
+    margin-top: 20%;
 }
 
 .footer-link {
