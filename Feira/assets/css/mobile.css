@@ -704,13 +704,12 @@
 
     .img-duvida {
         width: 380px;
-        margin-left: 2%;
-        margin-top: 10%;
+        margin-left: -2%;
     }
 
     .cont-btn-vm {
-        margin-top: 20%;
-        margin-left: 20%;
+        margin-top: 2%;
+        margin-left: 16%;
     }
 
     .btn-vermais {
@@ -741,20 +740,20 @@
     }
 
     .titulo-intro {
-        padding-top: 30%;
+        padding-top: 20%;
+        margin-right: 15%;
         text-transform: uppercase;
-        text-align: center;
         font-size: 1.6rem;
     }
 
     .img-empres{
         width: 100px;
-        margin-left: 16%;
+        margin-left: 14%;
     }
     
     .empresas{
         width: 110%;
-        height: 37vh;
+        height: 45vh;
         background: #e2e2e2;
         box-shadow: 0 0 5px #9e9c96;
     }
@@ -762,8 +761,7 @@
     .ttl-projeto{
         color: #000;
         width: 200px;
-        margin-left: 26%;
-        margin-bottom: 2%;
+        margin-left: 1;
         text-align: center;
         border-bottom: 3px #3d90e4 solid ;
     }

@@ -13,11 +13,11 @@ inicio.addEventListener('click', () =>{
 const app = document.querySelector('.navbar-item-2');
 
 app.addEventListener('click', () =>{
-    window.scroll({top: 1200, behavior: "smooth"})
+    window.scroll({top: 1250, behavior: "smooth"})
 })
 
 const solu = document.querySelector('.navbar-item-3');
 
 solu.addEventListener('click', () =>{
-    window.scroll({top: 1400, behavior: "smooth"})
+    window.scroll({top: 1900, behavior: "smooth"})
 }) 
